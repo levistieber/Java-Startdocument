@@ -50,14 +50,14 @@ In the table below, all the input is described.
 
 |   Case    |         Type          |       Condition      |
 | --------- | --------------------- | -------------------- |
-|    ID     |          int          |        Not null      |
+|    cellNumber     |          int          |        Not null      |
 |addPrisoner|         void          |Cell not containing Prisoner yet|
 
 #### Input for class Large cell
 
 |   Case    |         Type          |       Condition      |
 | --------- | --------------------- | -------------------- |
-|    ID     |          int          |        Not null      |
+|    cellNumber     |          int          |        Not null      |
 |addPrisoner|         void          |Cell not containing 2 Prisoners yet|
 
 
@@ -84,15 +84,15 @@ In the table below, all the input is described.
 
 | Case              | Type   |
 | ----------------- | ------ |
-|       getID       |   int  |
+|       getCellNumber       |   int  |
 |     getPrisoner   |Prisoner| Condition: If it has a prisoner |
 
 #### Output for class Large cell
 
 | Case              | Type   |
 | ----------------- | ------ |
-|       getID       |  int   |
-|     getPrisoner   |ArrayList|
+|       getCellNumber     |  int   |
+|     getPrisoner   |Array|
 
 #### Remarks
 
@@ -129,6 +129,6 @@ In this section the testcases will be described in order to test the application
 | 14 |	getPrisoners()	|	|	2 Prisoners(named Brendon Lakatos and Peesge Ogli)|
 | 15 |	getPrisoner()	|	|	1 Prisoner(named Levente Stieber)|
 | 16 |	getName() of Prison	|	|	Azkaban	|
-| 17 |	getFreeCell()|	|Cell with ID number 3|
+| 17 |	getFreeCell()|	|Cell number 3|
 | 18 |	firstReleasedPrisoner()	|	|1 Prisoner(named Levente Stieber)|
-| 19 |	getCells()	|	|	ArrayList of 3(ID #1, #2 and #3)|
+| 19 |	getCells()	|	|	Array of 3(ID #1, #2 and #3)|
