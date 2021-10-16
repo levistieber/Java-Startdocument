@@ -224,6 +224,6 @@ Method getCells returns a HashMap with the Cells and their Array of Prisoners.
 
 | Step | Input           | Action                       | Expected output                            |
 | ---- | --------------- | ---------------------------- | ------------------------------------------ |
-| 1    | `getCells` | `getCells`| HashMap of Cells: 3 cells, #1(small), #2 and #3. #1 should have an empty Array, #2 and #3 should have Arrays with 2 Prisoners each.(Brendon Lakatos and Ogli Peesge in #2, Levente Stieber and Lorinc Meszaros in #3)  |
+| 1    | `getCells` | `getCells`| HashMap of Cells: 3 cells, #1(small), #2(large) and #3(large). #1 should have an empty Array, #2 and #3 should have Arrays with 2 Prisoners each.(Brendon Lakatos and Ogli Peesge in #2, Levente Stieber and Lorinc Meszaros in #3)  |
 | 2    | `prisoner` | `releasePrisoner`(Levente Stieber) from large cell(#3) | Prisoner(Levente Stieber) removed from Array Prisoners of cell #3 (in HashMap cells) |
-| 3    | `getCells` | `getCells`| HashMap of Cells: 3 cells, #1(small), #2 and #3. #1 should have an empty Array, #2 should have Arrays with 2 Prisoners(Brendon Lakatos and Ogli Peesge), and #3 an Array with 1 Prisoner(Lorinc Meszaros).  |
+| 3    | `getCells` | `getCells`| HashMap of Cells: 3 cells, #1(small), #2(small) and #3(large). #1 should have an empty Array, #2 should have Arrays with 2 Prisoners(Brendon Lakatos and Ogli Peesge), and #3 an Array with 1 Prisoner(Lorinc Meszaros).  |
